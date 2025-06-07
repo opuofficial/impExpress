@@ -3,7 +3,7 @@ import DriverIcon from "../assets/images/driver-icon.png";
 const SleeperSeat = () => {
   return (
     <div className="mb-2">
-      <div className="h-12 w-6 border rounded"></div>
+      <div className="h-12 w-6 border rounded bg-slate-200"></div>
       <div className="text-slate-400 text-xs">Sold</div>
     </div>
   );
@@ -12,7 +12,7 @@ const SleeperSeat = () => {
 const DefaultSeat = () => {
   return (
     <div className="mb-2">
-      <div className="h-6 w-6 border rounded"></div>
+      <div className="h-6 w-6 border rounded bg-slate-200"></div>
       <div className="text-slate-400 text-xs">Sold</div>
     </div>
   );
